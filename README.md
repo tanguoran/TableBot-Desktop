@@ -11,7 +11,16 @@
 
 ## 获取与运行
 
-需要 Unity **6000.3.27f1** 和 Git LFS。在本仓库目录执行：
+仓库地址：<https://github.com/tanguoran/TableBot-Desktop>。这是私有仓库，需要使用有访问权限的 GitHub 账号。
+
+需要 Unity **6000.3.27f1** 和 Git LFS。独立获取桌面项目：
+
+```powershell
+git clone https://github.com/tanguoran/TableBot-Desktop.git
+cd TableBot-Desktop
+```
+
+也可从主仓库 <https://github.com/tanguoran/TableBot> 通过子模块获取。在桌面仓库目录执行：
 
 ```powershell
 git lfs install --local
