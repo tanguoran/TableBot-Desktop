@@ -16,13 +16,14 @@
 需要 Unity **6000.3.27f1** 和 Git LFS。独立获取桌面项目：
 
 ```powershell
-git clone https://github.com/tanguoran/TableBot-Desktop.git
+git -c core.longpaths=true clone https://github.com/tanguoran/TableBot-Desktop.git
 cd TableBot-Desktop
 ```
 
 也可从主仓库 <https://github.com/tanguoran/TableBot> 通过子模块获取。在桌面仓库目录执行：
 
 ```powershell
+git config core.longpaths true
 git lfs install --local
 git lfs pull
 ```
