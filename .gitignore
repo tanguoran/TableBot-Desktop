@@ -1,0 +1,43 @@
+# Unity-generated directories. Assets, Packages and ProjectSettings are source.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+**/DeskPreviews/
+
+# IDE and generated solution files.
+.vs/
+.vscode/
+**/.vs/
+**/.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+*.csproj.meta
+*.sln.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Local secrets and OS metadata.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+crashlytics-build.properties

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0f0ed563bfd3c4ea60a8866e2a0280, type: 3}
+  m_Name: DesktopFileCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::WhaleDesk.DesktopFileCatalog
+  assets:
+  - kind: folder
+    prefab: {fileID: 2263626668200319755, guid: 4332603e340b1074c843b1702aab971c, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.75, g: 0.53, b: 0.2, a: 1}
+    blocksNavigation: 1
+  - kind: document
+    prefab: {fileID: 2736290024794693782, guid: 99625fff9e9a1a94386d8a9961b7eece, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.16, g: 0.35, b: 0.68, a: 1}
+    blocksNavigation: 1
+  - kind: spreadsheet
+    prefab: {fileID: 6071012370192387572, guid: 809475845347c374a9838f0f3fba0710, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.18, g: 0.49, b: 0.32, a: 1}
+    blocksNavigation: 1
+  - kind: slides
+    prefab: {fileID: 5039454638457715418, guid: 35863987f795abe45ba440539c6c3a53, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.75, g: 0.34, b: 0.13, a: 1}
+    blocksNavigation: 1
+  - kind: image
+    prefab: {fileID: 4932777512145756531, guid: 8c82b93274a764e419e915d7ef430d5a, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.2
+    accent: {r: 1, g: 1, b: 1, a: 1}
+    blocksNavigation: 1
+  - kind: audio
+    prefab: {fileID: 6745354087166916737, guid: 93d05898bb43b3343b548ae5cbe6738f, type: 3}
+    yaw: 0
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.58, g: 0.72, b: 0.8, a: 1}
+    blocksNavigation: 1
+  - kind: video
+    prefab: {fileID: 9149325189608458433, guid: fd5f27238f52a4b43ac5e3948b76d512, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.2, g: 0.22, b: 0.27, a: 1}
+    blocksNavigation: 1
+  - kind: archive
+    prefab: {fileID: 6587250718199715745, guid: 86e02fad958a7134c82dd06e2ebbf65b, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.59, g: 0.39, b: 0.22, a: 1}
+    blocksNavigation: 1
+  - kind: text
+    prefab: {fileID: 4176206859512441525, guid: d9f60579a4764854ca7fcdfb753562f4, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.16, g: 0.42, b: 0.44, a: 1}
+    blocksNavigation: 1
+  - kind: program
+    prefab: {fileID: 3970714854103584633, guid: 1d2d29eab035c3f44879b0e54f7ba9ba, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.25, g: 0.37, b: 0.53, a: 1}
+    blocksNavigation: 1
+  - kind: other
+    prefab: {fileID: 5504888359742411528, guid: 1142448b39fda3441954d7317fd248df, type: 3}
+    yaw: 180
+    maximumWidth: 0.18
+    maximumDepth: 0.16
+    maximumHeight: 0.16
+    accent: {r: 0.43, g: 0.46, b: 0.49, a: 1}
+    blocksNavigation: 1
